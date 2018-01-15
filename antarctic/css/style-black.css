@@ -1,0 +1,134 @@
+body{font-family: 'Roboto', sans-serif; color:#222;}
+a{ color:#808080; }
+a:hover{ color:#fff; }
+.contact{ padding: 1rem 2rem; }
+.header{ background-color: rgba(0, 0, 0, 0.5); position: relative;z-index: 2;padding: 0.75rem 0;min-height: 71px; }
+.header a{ color:#fff; transition: all ease 0.5s; letter-spacing: 3px;}
+.logo{ width:2rem; height:2rem;text-indent:9999px; color:#fff; background: transparent no-repeat center; background-size: contain; position: absolute; top:0; left:1rem;}
+.menu{ text-transform: uppercase; font-weight: 300; text-shadow: 0px 0px 0px #ffffffb3; transition: all ease 1s;}
+.home{overflow: hidden; width:100%; height:100vh; position: relative;}
+.firstvp{ background-size: cover;background-position: center center;background-repeat: no-repeat;min-width: 100%;min-height: 100%;z-index: -1;position: absolute;top:0;left:0; transition: transform ease 3s}
+.firstvp-news{ background-attachment: fixed;background-size: cover;background-position: center center;background-repeat: no-repeat; color:#fff;}
+.home-color-opacity{background-color: #000; width:100%; height:100%;position: absolute; opacity:0.3; top:0; left:0;}
+.gradient-home{position: absolute;top: 0;bottom: 0;left: 0;width: 15%;background-color: rgba(0,0,0,0);filter: alpha(opacity=70);opacity: .7;}
+.gradient-left{background-image: -webkit-linear-gradient(left,rgba(0,0,0,1) 0,rgba(0,0,0,.0001) 100%);background-image: -o-linear-gradient(left,rgba(0,0,0,1) 0,rgba(0,0,0,.0001) 100%);background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,1)),to(rgba(0,0,0,.0001)));background-image: linear-gradient(to right,rgba(0,0,0,1) 0,rgba(0,0,0,.0001) 100%);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);background-repeat: repeat-x;}
+.gradient-right{right: 0;left: auto;background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,1) 100%);background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,1) 100%);background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,1)));background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);background-repeat: repeat-x;}
+.firstvp h2, .firstvp h3{ margin:auto; color:#fff; z-index: 3; position: relative;}
+.home-title{position: relative;z-index: 999; color:#fff;}
+.home h2{font-weight: 700;font-size:2.5rem;margin:30vh auto 0;}
+.home h3{font-weight: 300;font-size:1.5rem; letter-spacing: 1px;}
+.news h2{font-size: 5rem;margin-top: 16vh;letter-spacing: 3px;font-weight: 700;}
+
+.posts:before{background-image: -webkit-linear-gradient(bottom,rgba(0, 1, 18,.0001) 0,rgb(6, 6, 6) 100%);background-image: -o-linear-gradient(bottom,rgba(0, 1, 18,.0001) 0,rgb(6, 6, 6) 100%);background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0, 1, 18,.0001)),to(rgb(6, 6, 6)));background-image: linear-gradient(to bottom,rgba(0, 1, 18, 0.0001) 0,rgb(6, 6, 6) 100%);
+	content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+	.posts{color: #e1e1e1!important;height: 20vh;position: relative;width: 100%; min-height:252px;}	
+	.posts h4, .posts p{ position: relative; z-index: 999; }
+	.posts h4{ margin-bottom:1rem; font-weight: 400;}
+	.posts p{ font-weight: 300; line-height: 1.35rem; letter-spacing:1px;}
+	.button{ background:#6C6C6C; color:#fff; margin: 2rem auto 0; padding:1rem 3rem; width:40%; min-width:200px;transition: all ease 0.5s;}
+	.button:hover{ color:#fff; transform:scale(1.1);}
+
+	.teams{ background-color: #F6F6F6; padding: 2rem 0;}
+	.tab-img{ width: auto;display: inline-block;vertical-align: middle; }
+	.teams input[type=radio] { display:none;}
+	.teams label { cursor:pointer;}
+
+	#ava ~ #content-ava,#battlefield ~ #content-battlefield, #brawlhalla ~ #content-brawlhalla, #cod ~ #content-callofduty, #cr ~ #content-clashroyale,#cs ~ #content-csgo,#crossfire ~ #content-crossfire, #dota ~ #content-dota,#fifa ~ #content-fifa,#gow ~ #content-gow,#gwent ~ #content-gwent,#guild ~ #content-guildwars,#halo ~ #content-halo,#hearthstone ~ #content-hearthstone,#h1z1 ~ #content-h1z1,#hon ~ #content-hon,#heroes ~ #content-hots,#iracing ~ #content-iracing,#killer ~ #content-killer,#lol ~ #content-lol,#madden ~ #content-madden,#nba ~ #content-nba,#overwatch ~ #content-overwatch,#paladins ~ #content-paladins,#pb ~ #content-playerunknow,#pokemon ~ #content-pokemon,#point ~ #content-point,#pc ~ #content-project,#pes ~ #content-pes,#quake ~ #content-quake,#rainbow ~ #content-rainbow,#rocket ~ #content-rocket,#smite ~ #content-smite,#starcraft ~ #content-starcraft,#street ~ #content-street,#supersmash ~ #content-supersmash,#tekken ~ #content-tekken,#tm ~ #content-tm,#unreal ~ #content-unreal,#vainglory ~ #content-vainglory,#wow ~ #content-wow,#wot ~ #content-wot,#wt ~ #content-wt{
+		transition: opacity 1s ease;opacity: 0; height: 0;overflow: hidden;
+	}
+	#ava:checked ~ #content-ava,#battlefield:checked ~ #content-battlefield, #brawlhalla:checked ~ #content-brawlhalla, #cod:checked ~ #content-callofduty, #cr:checked ~ #content-clashroyale,#cs:checked ~ #content-csgo,#crossfire:checked ~ #content-crossfire, #dota:checked ~ #content-dota,#fifa:checked ~ #content-fifa,#gow :checked~ #content-gow,#gwent:checked ~ #content-gwent,#guild:checked ~ #content-guildwars,#halo:checked ~ #content-halo,#hearthstone:checked ~ #content-hearthstone,#h1z1:checked ~ #content-h1z1,#hon:checked ~ #content-hon,#heroes:checked ~ #content-hots,#iracing:checked ~ #content-iracing,#killer:checked ~ #content-killer,#lol:checked ~ #content-lol,#madden:checked ~ #content-madden,#nba:checked ~ #content-nba,#overwatch:checked ~ #content-overwatch,#paladins:checked ~ #content-paladins,#pb:checked ~ #content-playerunknow,#pokemon:checked ~ #content-pokemon,#point:checked ~ #content-point,#pc:checked ~ #content-project,#pes:checked ~ #content-pes,#quake:checked ~ #content-quake,#rainbow:checked ~ #content-rainbow,#rocket:checked ~ #content-rocket,#smite:checked ~ #content-smite,#starcraft:checked ~ #content-starcraft,#street:checked ~ #content-street,#supersmash:checked ~ #content-supersmash,#tekken:checked ~ #content-tekken,#tm:checked ~ #content-tm,#unreal:checked ~ #content-unreal,#vainglory:checked ~ #content-vainglory,#wow:checked ~ #content-wow,#wot:checked ~ #content-wot,#wt:checked ~ #content-wt{
+		opacity: 1;height: auto;
+	}
+
+	.teams input + label { transition: opacity ease 0.2s; opacity:0.5; transition: opacity ease 0.75s;}
+	.teams input:hover + label, .teams input:checked + label { opacity:1; }
+	.teams .player{height:30vh; min-height:200px;}
+	.teams .content{ margin-top: 1rem; }
+	.portrait{background-repeat:no-repeat; background-size: cover;width:100%; height:100%;background-position: top center; }
+	.teams h4{ font-weight: 300; margin: 0.5rem 0; }
+
+	.contact{ background-color:#000;position:relative;background-repeat: no-repeat; color:#C8C8C8;}
+	.contact-bg{ background-size: cover;  opacity:0.3; width:100%; height:100%;position: absolute;top:0; left:0; background-attachment: fixed;}
+	.contact-text{position: relative;z-index: 2;}
+	.contact h4{font-weight: 300; text-transform: uppercase; font-size:32px; font-size:2rem; letter-spacing: 1px;margin-bottom: 28px;margin-bottom: 1.75rem;}
+	.about{font-weight: 300;line-height: 1.75rem;}
+	.contact-form{background-color: rgba(0, 0, 0, 0.31); padding: 2rem 1.5rem; transition: transform ease 0.5s;margin-top:1rem;}
+	.contact-form:hover{ transform: scale(1.1); }
+	form>*{width:100%;}
+	.contact-form input,.contact-form textarea{ color:#C8C8C8;padding:0.5rem 1.5rem; border:thin solid rgb(80, 80, 80); background-color:rgba(33, 33, 33, 0.3); margin-bottom:0.5rem; transition: all ease 0.5s;}
+	.contact-form input:hover, .contact-form input:focus, .contact-form textarea:hover, .contact-form textarea:focus{border-color:#CCC;}
+	.contact-form input[type=submit]{ background-color:rgb(80, 80, 80); letter-spacing: 1px}
+	footer{ background-color: #060606; width:100%; color:#C8C8C8;}
+	.contact-form input[type=submit]:hover{ background-color:#CCC; box-shadow: 0px 0px 5px #BBB;}
+	.footer-logo img{ width: auto;height: 2.5rem;flex-basis:3rem;}
+	.copyright{letter-spacing: 1px; font-weight: 300;}
+	.copyright a{letter-spacing: 2px; font-weight: 400;}
+	.sponsors img{ opacity:0.7; transition: opacity ease 0.4s; max-height: 68px; padding:0.5rem 0;}
+	.sponsors img:hover{ opacity:1; }
+	.social-media{bottom: 3rem;right: 0;z-index: 3;text-align: center;margin: 1rem 0;}
+	.social-media img{ margin: 0 0.5rem; display: inline-block; max-width: 20px;}
+
+	/* Singular */
+	.post{ margin-bottom:4rem; padding:0 1rem;}
+	.post img{ width: auto; }
+	.post-img{ width:100%; background-size: cover;background-attachment: fixed; background-repeat: no-repeat;background-position: center center; }
+	.post p{margin-bottom: 1rem; line-height: 1.5rem}
+	.post-title{ margin-top:3.5rem;}
+	.post-time{ opacity:0.6; text-transform: uppercase; margin-bottom:2.5rem;}
+	.comments-gray{ background: #f2f2f2; padding: 2rem 0;}
+	.comment-reply-title{ margin: 2rem 0 1rem; }
+	.comment-notes, .logged-in-as{ margin-bottom: 1rem }
+	.form-submit{ text-align: center; }
+	.form-submit input[type=submit]{ background:#1F52AB; color:#fff; margin: 2rem auto 0; padding:1rem 3rem; min-width:200px;transition: all ease 0.5s; border:0px solid transparent; }
+	.form-submit input[type=submit]:hover{ color:#fff; transform:scale(1.1);}
+	.comment-form{ font-size: 0; }
+	.comment-form label{ display: none }
+	.comment-form-comment textarea{ width: 100%; }
+	.comment-form-comment textarea, .comment-form input{ border: thin solid #EEE; padding: 0.5rem 1rem; width: 100%;}
+	.comment-respond{ margin-bottom:3rem; text-align: center; margin: 0 1rem;}
+	#comments{ text-align:center; margin-bottom: 1.5rem}
+	.avatar{float:left; margin: 0 0.75rem 0.5rem 0;width:32px; height:32px;}
+
+	/* Page Noticias */
+	.list-posts{ padding:0.75rem; }
+	.list-posts, .list-posts:hover{color:#222; transition: transform ease .5s;}
+	.list-posts:hover{ transform: scale(1.1); }
+	.list-posts .bg-img{ background-repeat: no-repeat; width:100%; padding-bottom:80%; background-size: cover; background-position: center;}
+	.list-posts time{ opacity:0.6; text-transform: uppercase; }
+	.page-numbers{ padding: 0 1rem; }
+	.list-posts p{ line-height: 1.5rem }
+	.list-posts h4{ margin-top:.75rem; }
+
+
+	ol.commentlist { list-style:none; padding:0; text-indent:0; }
+	ol.commentlist li.comment div.vcard cite.fn { font-style:normal; text-transform: capitalize;}
+	ol.commentlist li.comment div.comment-meta { font-size:9px; }
+	ol.commentlist li.comment div.comment-meta a { opacity: 0.6; color:#222; text-transform: uppercase;  font-size:0.75rem;}
+	ol.commentlist li.comment p { margin:0.5rem 0 1em; line-height: 1.5rem; text-align: justify;}
+	ol.commentlist li.comment ul { list-style:square; margin:0 0 1em 2em; }
+	ol.commentlist li.comment ul.children { list-style:none; margin:1em 0 0; text-indent:0; }
+	ol.commentlist li.comment ul.children li.depth-2 { margin:0 0 .25em .25em; }
+	ol.commentlist li.comment ul.children li.depth-3 { margin:0 0 .25em .25em; }
+	ol.commentlist li.comment ul.children li.depth-4 { margin:0 0 .25em .25em; }
+	ol.commentlist li.comment ul.children li.depth-5 {margin:0 0 .25em .25em;}
+	ol.commentlist li { background:#fff; padding:1rem; margin: 0 1rem 1rem 1rem;;border: thin solid #EEE; }
+
+	@media screen and (min-width:48em){
+		.home h2{ font-size:10vw;}
+		.home h3{ font-size:2rem;}
+		.contact-form{padding:3rem 2.5rem; margin-top:0;}
+		.social-media{position: absolute; bottom:3rem; width: 20%;right: 0;z-index:3;text-align: right;}
+		.news h2{font-size: 6rem;}		
+	}
+
+	@media screen and (min-width:64em){
+		ol.commentlist, .comment-form {width: 70%;margin: 0 auto;}
+		.home:hover .firstvp{ transform: scale(1.2);}
+		.posts{ height: 70vh; transition: all ease 0.5s; width:auto;}
+		.posts:hover{ transform:scale(1.1); z-index:999; color:#e1e1e1; }
+		.contact{ padding:0; }
+		.post{padding:0;}
+		ol.commentlist li {margin: 0 0 1rem 0; }
+		.comment-respond{ margin:0; }
+		.form-submit input[type=submit]{ width:40%;  }
+	}

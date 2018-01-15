@@ -1,0 +1,53 @@
+.hamburger
+	width: 24px
+	width: 1.5rem
+	height: 2px
+	height: .25rem
+	background-color: #ACACAC
+	margin: .25rem 0
+
+.menu-link
+	position: absolute
+	float: right
+	display: block
+	padding: .75rem
+	top: 0
+	right: 0
+
+.js 
+	nav[role=navigation]
+		overflow: hidden
+		max-height: 0
+		letter-spacing: 3px
+
+nav[role=navigation]
+	clear: both
+	-webkit-transition: all .3s ease-out
+	-moz-transition: all .3s ease-out
+	-ms-transition: all .3s ease-out
+	-o-transition: all .3s ease-out
+	transition: all .3s ease-out
+	line-height: initial
+	padding: 0 2rem 0 0
+	.active
+		max-height: 21rem
+	ul
+		margin: 0
+		padding: 0 2rem 0 0
+	li
+		border-bottom: none
+		&:last-child
+			border-top: 1px solid #CCC
+	a
+		font-weight: 300!important
+
+.small-logo
+	width: 2rem
+	height: 2rem
+	text-indent: 9999px
+	color: #fff
+	background: center no-repeat
+	background-size: contain
+
+.small-logo-container
+	padding: .7rem 0 0

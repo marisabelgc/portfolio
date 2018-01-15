@@ -1,0 +1,35 @@
+.slider
+	&:before
+		position: absolute
+		content: ''
+		border-top: 30vh solid #F3F3F3
+		border-right: 100vw solid transparent
+		z-index: -1
+
+.sliderImg
+	background-repeat: no-repeat
+	background-size: cover
+	width: 100%
+	background-origin: content-box
+	z-index: -1
+	top: 0
+
+.device-img 
+	img
+		z-index: 1
+	
+
+#sliderImg1
+	animation: sliderAnimationImgF 30s ease-in-out infinite
+	-webkit-animation: sliderAnimationImgF 30s ease-in-out infinite
+	background-image: url(img/web4.png)
+
+#sliderImg2
+	animation: sliderAnimationImgS 30s ease-in-out infinite
+	-webkit-animation: sliderAnimationImgS 30s ease-in-out infinite
+	background-image: url(img/web5.png)
+
+#sliderImg3
+	animation: sliderAnimationImgT 30s ease-in-out infinite
+	-webkit-animation: sliderAnimationImgT 30s ease-in-out infinite
+	background-image: url(img/web6.png)

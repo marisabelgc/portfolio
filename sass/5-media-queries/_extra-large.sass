@@ -1,0 +1,84 @@
+@media (min-width:75em)
+    .slider
+        &:before
+            border-right: 98.8vw solid transparent
+
+    .container
+        max-width: 1000px
+
+    h4
+        font-size: 1.5rem
+        font-weight: 300
+
+    .buttons
+        flex-direction: column
+        height: 66%
+        position: absolute
+        right: 3rem
+        top: 10%
+
+    button
+        width: 15px
+        height: 15px
+
+    .lang 
+        li
+            margin-right: .5rem
+            letter-spacing: 2px
+
+    .contact
+        background-color: #F3F3F3
+        color: #959595
+        margin: 0
+        div
+            &:first-child
+                margin: 0 auto
+        .info
+            width: 35%
+            margin-right: 4%
+            p  
+                text-align: left
+                line-height: 1.7rem
+
+    .contact-flex
+        display: flex
+        flex-flow: row nowrap
+        align-items: center
+        justify-content: space-between
+        
+
+    input[type=submit]
+        background: #E3E3E3
+        color: #959595
+        border: 1px solid #D7D7D7!important
+        font-size: 16px
+        height: 3rem
+        width: 98%
+        &:hover
+            background-color: #d7d7d7
+            border: 1px solid #d7d7d7!important
+            color: #666
+
+    .dropdown,
+    .dropdown .option.selected,
+    input[type=text],
+    input[type=text]::placeholder,
+    textarea,
+    textarea::placeholder
+        color: #8B8B8B
+
+    .control__indicator,
+    input[type=text],
+    textarea
+        background-color: transparent
+
+    .dropdown
+        &::after, &:after
+            border-top: 4px solid #959595
+        .list
+            border: 1px solid #D3D3D3
+            background-color: #F3F3F3
+
+    .form-contact
+        margin-top: 0
+        justify-content: flex-end
