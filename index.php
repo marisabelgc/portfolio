@@ -6,12 +6,12 @@
 		if( $_GET["lang"]=="es"){
 			?>			
 			<h1>marisabel guevara</h1>
-			<h2>DISEÑADORA Y DESARROLLADORA WEB FULL-STACK</h2>	
+			<h2>DISEÑADORA UI Y DESARROLLADORA WEB FULL-STACK</h2>	
 			<?php
 		}else{
 			?>
 			<h1>marisabel guevara</h1>
-			<h2>DESIGNER AND FULL-STACK WEB DEVELOPER</h2>
+			<h2>UI DESIGNER AND FULL-STACK WEB DEVELOPER</h2>
 
 			<?php
 		}
@@ -50,7 +50,7 @@
 				<span class="uppercase">Fecha de nacimiento</span> 30 de abril de 1994<br>
 				<span class="uppercase">Ubicación</span> Caracas, Venezuela<br>
 				<span class="uppercase">Idiomas</span> Español (nativo), Inglés (avanzado)<br>
-				<span class="uppercase">Email</span> marisabelgc18@gmail.com<br>
+				<span class="uppercase">Email</span> <a href="mailto:marisabelgc18@gmail.com">marisabelgc18@gmail.com</a><br>
 				<span class="uppercase">Github</span> <a href="https://github.com/marisabelgc">marisabelgc</a><br>
 			</p>
 			<?php
@@ -63,7 +63,7 @@
 				<span class="uppercase">Birthday</span> April 30th, 1994<br>
 				<span class="uppercase">Location</span> Caracas, Venezuela<br>
 				<span class="uppercase">Languages</span> Spanish (native), English (advanced)<br>
-				<span class="uppercase">Email</span> marisabelgc18@gmail.com<br>
+				<span class="uppercase">Email</span> <a href="mailto:marisabelgc18@gmail.com">marisabelgc18@gmail.com</a><br>
 				<span class="uppercase">Github</span> <a href="https://github.com/marisabelgc">marisabelgc</a><br>
 			</p>
 
@@ -101,16 +101,17 @@
 <section class="container  works" id="works">
 	<h4><?php echo $_GET['lang']=="es"? "Trabajos" : "Work Experience";?></h4>
 	<div class="trabajos  flex flex-row flex-wrap jc-flex-stretch">
-		<div class="years  f_75  ph3  md2  uppercase">2017 - <?php echo $_GET['lang']=="es"? "Presente" : "Present";?></div>
-		<div class="ph9  md10">
-			<?php echo $_GET['lang']=="es"? "Diseñadora y Desarrolladora Web ":"Designer and full-stack web developer ";?>
-			<a href="http://www.oditylab.net"><span class="uppercase  f_75">(OddityLab)</span></a>
-		</div>
 
 		<div class="years  f_75  ph3  md2  uppercase">2016 - <?php echo $_GET['lang']=="es"? "Presente" : "Present";?></div>
 		<div class="ph9  md10">
 			<?php echo $_GET['lang']=="es"? "Diseñadora y Desarrolladora Web ":"Designer and full-stack web developer ";?>
 			<a href="http://www.marisabelguevara.com"><span class="uppercase  f_75">(MarisabelGuevara.com)</span></a>
+		</div>
+
+		<div class="years  f_75  ph3  md2  uppercase">2017</div>
+		<div class="ph9  md10">
+			<?php echo $_GET['lang']=="es"? "Diseñadora y Desarrolladora Web ":"Designer and full-stack web developer ";?>
+			<span class="uppercase  f_75">(OddityLab)</span>
 		</div>
 
 		<div class="years  f_75  ph3  md2">2014 - 2016</div>
@@ -132,7 +133,7 @@
 				<div class="ph12 md6">
 					<h4><?php echo $_GET['lang']=="es"? "Conocimientos" : "Skills";?></h4>
 					<p>HTML5, CSS3, Sass, Git</p>
-					<p>Javascript, JSON, jQuery</p>
+					<p>Javascript, jQuery</p>
 					<p>PHP, MySQL, PostgreSQL, PHPMyAdmin</p>
 					<p>Wordpress</p>
 					<p>Bootstrap, Materialize, Responsimple</p>
@@ -175,49 +176,49 @@
 			<div class="awork  ph12  md4">
 				<div class="bg">
 					<div class="picture" style="background-image:url('<?php bloginfo('template_url');?>/img/atherlace.png');"></div>
-					<p class="center  f1_25">Atherlace.com</p>
+					<p class="center  f1_25"><a href="http://atherlace.com/">Atherlace</a></p>
 					<p class="center"><?php echo $_GET['lang']=="es"? "Desarrollo Web en Wordpress" : "Wordpress Web Development";?></p>
 				</div>
 			</div>
 			<div class="awork  ph12  md4">
 				<div class="bg">
 					<div class="picture" style="background-image:url('<?php bloginfo('template_url');?>/img/marisabel web.jpg');"></div>
-					<p class="center  f1_25">MarisabelGuevara.com</p>
+					<p class="center  f1_25"><a href="http://marisabelguevara.com/">MarisabelGuevara.com</a></p>
 					<p class="center"><?php echo $_GET['lang']=="es"? "Diseño y Desarrollo web en Wordpress" : "Design and Wordpress Web Development";?></p>
 				</div>
 			</div>
 			<div class="awork  ph12  md4">
 				<div class="bg">
 					<div class="picture" style="background-image:url('<?php bloginfo('template_url');?>/img/bookmarks and tours.jpg');"></div>
-					<p class="center  f1_25">Bookmarks and Tours</p>
+					<p class="center  f1_25"><a>Bookmarks and Tours</a></p>
 					<p class="center"><?php echo $_GET['lang']=="es"? "Diseño y Desarrollo Web" : "Design and Web Development";?></p>
 				</div>
 			</div>
 			<div class="awork  ph12  md4">
 				<div class="bg">
 					<div class="picture" style="background-image:url('<?php bloginfo('template_url');?>/img/flamingo.jpg');"></div>
-					<p class="center  f1_25">Flamingo</p>
+					<p class="center  f1_25"><a>Flamingo</a></p>
 					<p class="center"><?php echo $_GET['lang']=="es"? "Illustración" : "Illustration";?></p>
 				</div>
 			</div>
 			<div class="awork  ph12  md4">
 				<div class="bg">
 					<div class="picture" style="background-image:url('<?php bloginfo('template_url');?>/img/mg logo.png');"></div>
-					<p class="center  f1_25">Marisabel Guevara</p>
+					<p class="center  f1_25"><a>Marisabel Guevara</a></p>
 					<p class="center"><?php echo $_GET['lang']=="es"? "Diseño de logo" : "Logo Design";?></p>
 				</div>
 			</div>
 			<div class="awork  ph12  md4">
 				<div class="bg">
 					<div class="picture" style="background-image:url('<?php bloginfo('template_url');?>/img/dingox.png');"></div>
-					<p class="center  f1_25">Dingox</p>
+					<p class="center  f1_25"><a>Dingox</a></p>
 					<p class="center"><?php echo $_GET['lang']=="es"? "Diseño de logo" : "Logo Design";?></p>
 				</div>
 			</div>			
 			<div class="awork  ph12  md4">
 				<div class="bg">
 					<div class="picture" style="background-image:url('<?php bloginfo('template_url');?>/img/chen.png');"></div>
-					<p class="center  f1_25">Chen</p>
+					<p class="center  f1_25"><a>Chen</a></p>
 					<p class="center"><?php echo $_GET['lang']=="es"? "Diseño de logo" : "Logo Design";?></p>
 				</div>
 			</div>			
